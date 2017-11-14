@@ -12,6 +12,9 @@ tags:
 
 filesystem:
   - fs
+  
+build_vars:
+  FLASH_SIZE: 1048576
 
 libs:
   - origin: https://github.com/mongoose-os-libs/js-demo-bundle
